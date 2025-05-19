@@ -1,0 +1,28 @@
+{
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "description": "Odin Projet for Node Js",
+  "homepage": "https://github.com/Marciwil/mini-message-board#readme",
+  "bugs": {
+    "url": "https://github.com/Marciwil/mini-message-board/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marciwil/mini-message-board.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <div>
+        <h1>Messages Created</h1>
+        
+        <% messages.map((messages) => { %>
+            <h2> <%= messages.text %> </h2>
+            <p> User: <%= messages.user %></p>
+            <p> Date: <%= messages.added %></p>
+            <a href="/messages/<%= messages.id%>">Open</a>
+            <br>
+        <% }) %>
+
+        <%- include("form") %>
+    </div>
+</form>
+</body>
+</html>
